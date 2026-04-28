@@ -1,0 +1,14 @@
+h1{
+   text-transform: capitalize;
+   color: blue;  
+}
+h2{
+    text-decoration: overline;
+    color: red;
+}
+#p3{
+    text-align: right;
+}
+#cita{
+    text-shadow: 2px 2px 5px red;
+}

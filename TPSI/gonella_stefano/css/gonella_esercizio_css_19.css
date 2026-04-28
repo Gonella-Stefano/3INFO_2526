@@ -1,0 +1,12 @@
+h1{
+    border-left: 5px solid blue;
+    border-right: 7px solid black;
+}
+h2{
+    border-top: 2px dashed green;
+}
+p{
+    border-bottom: 3px dashed gray;
+    border-left: 3px solid green;
+    border-right: 3px solid green;
+}
