@@ -1,0 +1,37 @@
+#master{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+
+#text{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 270px;
+    float: right;
+
+}
+
+#n1{
+    width: 150px;
+    float: left;
+    height: 150px;
+    background-color: purple;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#text2{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 20px;
+    float: right;
+}
