@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(53, 180, 223);
+}
+
+.wrapper{
+    max-width: 1000px;
+}
+.latoSinistro > img{
+    background-color: white;
+    padding: 10px;
+   
+}
+.wrapper > div{
+    display: inline;
+    float: left;
+}
+
+.latoDestro{
+    
+    background-color: rgb(1, 1, 173);
+}
+.latoDestro > img{
+    background-color: rgb(53, 180, 223);
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 13px;
+
+}
+
+h1{
+    text-transform: uppercase;
+    text-align:center;
+}
+
+h1, h2, h3, a, li, hr{
+    color: white;
+    list-style:none;
+}

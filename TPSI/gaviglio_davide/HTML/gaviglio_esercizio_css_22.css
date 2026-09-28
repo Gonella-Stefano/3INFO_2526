@@ -1,0 +1,17 @@
+.menu li {
+    display: inline;
+    margin: 0;
+    padding: 5px;
+  }
+
+li:hover {
+    background-color: gray;
+}
+
+ul {
+    background-color: black;
+}
+
+p {
+    color: white;
+}

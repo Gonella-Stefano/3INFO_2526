@@ -1,0 +1,28 @@
+table{
+    border: 20px solid lightblue;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:calc(10px + 750px + 2px + 2px + 58px); /* oppure width:fit-content; */
+}
+
+td{
+    margin: 5px;
+}
+
+img{
+    width: 150px;
+    border: 1px solid black;
+    margin:0px;
+}
+
+p{
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+    border-left: 1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    margin:0px;
+    padding:0px;
+}

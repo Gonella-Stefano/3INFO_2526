@@ -1,0 +1,17 @@
+div > div {
+    display: inline;
+    padding: 5px;
+}
+div > div:first-child{
+    background-color: purple;
+    color:white;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+body > div:first-child{
+    width: 400px;
+    height: 100px;
+}

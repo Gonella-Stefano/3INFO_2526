@@ -1,0 +1,18 @@
+h1{
+   text-transform: uppercase;
+    color:blue;
+}
+h2{
+    text-transform: capitalize;
+    color:red;
+    text-decoration:underline;
+}
+p{
+    text-align: justify;
+}
+#d3{
+text-align: right;
+}
+#d1{
+text-shadow:5px 5px black;
+}

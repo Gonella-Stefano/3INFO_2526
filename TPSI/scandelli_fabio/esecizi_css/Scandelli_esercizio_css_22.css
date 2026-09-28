@@ -1,0 +1,15 @@
+li {
+    display: inline;
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+    
+}
+ul {
+    background-color: black;
+
+}
+
+li a:hover {
+    background-color: rgb(82, 82, 82);
+}

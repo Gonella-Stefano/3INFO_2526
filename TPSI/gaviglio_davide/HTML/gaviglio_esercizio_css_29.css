@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.gallery-container {
+    display: inline-block;
+    border: 20px solid #add8e6; /* Blu chiaro */
+    padding: 10px;
+    background: white;
+}
+
+.gallery {
+    overflow: auto; /* Contiene i float senza usare ::after */
+}
+
+.column {
+    width: 150px;
+    float: left;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.column img {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.column p {
+    margin: 5px 0 0 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}

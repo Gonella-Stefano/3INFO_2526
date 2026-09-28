@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+.scacchiera {
+    width: 400px;
+    background: #333;
+    padding: 2px;
+}
+
+.scacchiera div {
+    width: 50px;
+    height: 50px;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+}
+
+.scacchiera div:nth-child(16n + 1),
+.scacchiera div:nth-child(16n + 3),
+.scacchiera div:nth-child(16n + 5),
+.scacchiera div:nth-child(16n + 7),
+.scacchiera div:nth-child(16n + 10),
+.scacchiera div:nth-child(16n + 12),
+.scacchiera div:nth-child(16n + 14),
+.scacchiera div:nth-child(16n + 16) {
+    background: #f0d9b5; 
+}
+
+.scacchiera div:nth-child(16n + 2),
+.scacchiera div:nth-child(16n + 4),
+.scacchiera div:nth-child(16n + 6),
+.scacchiera div:nth-child(16n + 8),
+.scacchiera div:nth-child(16n + 9),
+.scacchiera div:nth-child(16n + 11),
+.scacchiera div:nth-child(16n + 13),
+.scacchiera div:nth-child(16n + 15) {
+    background: #b58863;
+}
+
+.scacchiera::after {
+    content: "";
+    display: block;
+    clear: both;
+}

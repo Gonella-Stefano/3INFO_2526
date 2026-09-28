@@ -1,0 +1,36 @@
+.contenitore {
+    height: 150px;
+    width: 370px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.testo {
+    display: flex;
+    height: 20px;
+    width: 60px;
+    border: 2px solid aquamarine;
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.t1 {
+    width: 90px;
+}
+
+.ts {
+    width: 110px;
+}
+
+.tm {
+    width: 80px;
+}

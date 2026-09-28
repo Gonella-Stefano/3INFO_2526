@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f6f5f6;
+  border: 1px solid aqua;
+  border-radius: 15px;
+  width: 300px;
+  height: 200px;
+  padding: 100px;
+}
+
+.item {
+  background-color: #0b3e86;
+  width: 80px;
+  height: 20px;
+  padding: 10px;
+  color: aliceblue;
+}

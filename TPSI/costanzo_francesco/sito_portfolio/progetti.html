@@ -4,6 +4,122 @@
   <head>
     <!--Informazioni e meta-->
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Francesco Costanzo Portfolio</title>
+    <!--Qui CSS in futuro-->
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Parte iniziale con titolo e logo-->
+    <h1>Francesco Costanzo</h1>
+    <!--Varie ancore alle parti del sito-->
+    <nav>
+      <h2><a href="index.html">Home</a></h2>
+      <h2><a href="progetti.html" class="active">Progetti/Ed. Civica</a></h2>
+    </nav>
 
+    <hr>
+
+    <h1>Progetti ed Educazione Civica</h1>
+    <h2>Progetti</h2>
+    <h3>Decypher</h3>
+    <p>Antico algoritmo di cifratura, il Cifrario di Cesare, questo codice in C permette di decifrare e cifrare un messaggio.</p>
+    <pre>
+      Codice in C:
+      <code>
+          #include &lt;stdio.h&gt;
+          #include &lt;stdlib.h&gt;
+          #include &lt;string.h&gt;
+
+          //costanti importanti
+          const int LETTEREALFABETO = 21;
+          const char ALFABETO[] = {'a','b','c','d','e','f','g','h','i',
+                                  'l','m','n','o','p','q','r','s','t',
+                                  'u','v','z'};
+          const int MAXCARATTERI = 20;
+
+          //main
+          int main(int argc, char **argv) {
+              
+              //"trasformazione" da string in int
+              int k = atoi(argv[1]);
+
+              char parola[MAXCARATTERI + 1];
+              strncpy(parola, argv[2], MAXCARATTERI);
+
+              //Stampa del "menu"
+              printf("Input:  %s\n", parola);
+              printf("Chiave: %d", k);
+
+              //cicli for per scorrere lettere e sostituire
+              for (int i = 0; parola[i] != '\0'; i++) {
+                  
+                  for (int j = 0; j &lt; LETTEREALFABETO; j++) {
+                      if (parola[i] == ALFABETO[j]) {
+                          int nuova_pos = (j - k + LETTEREALFABETO) % LETTEREALFABETO;
+                      
+                          parola[i] = ALFABETO[nuova_pos];
+                          break;
+                      }
+                  }
+              
+              }
+              //stampa risulitato
+              printf("\nRisultato: %s\n", parola);
+              return 0;
+          }
+      </code>
+    </pre>
+    <h3>Controllo di bit di parità e disparità</h3>
+    <p>Algoritmo che consente di controllare se l'arrivo di bit in una stringa sono corretti o errati, in base al bit di parità o disparità posto al capolinea della stessa.</p>
+    <pre>
+      Codice in C:
+      <code>
+            #include &lt;stdio.h&gt;
+            #include &lt;string.h&gt;
+            #include &lt;stdlib.h&gt;
+
+            bool controllo(int nCaratteri, char codice[]) {
+
+                int temp, somma = 0, cifraControllo;
+                cifraControllo = (int)codice[nCaratteri - 1] - 48;
+
+                for (int i = 0; i &lt; nCaratteri; i++) {
+                    if (i != nCaratteri) {
+                        temp = (int)(codice[i] - 48);
+                        somma += temp;
+                    } 
+                }
+
+                return (somma % 2) == cifraControllo;
+            }
+
+            bool main (int argc, char *argv[]) {
+                
+                int nCaratteri = strlen(argv[1]);
+                char codice[nCaratteri + 1];
+                bool flag;
+                strcpy(codice, argv[1]);
+                if (*argv[2] == '0') {
+                    flag = controllo(nCaratteri, codice);
+                } else if(*argv[2] == '1') {
+                    flag = !controllo(nCaratteri, codice);
+                }
+
+                printf("\nIl flag è: %d", flag);
+
+                return flag;
+            }
+      </code>
+    </pre>
+    <h2>Ed. Civica</h2>
+    <h3>Informatica</h3>
+    <p>Sviluppo di calcolatore di codice fiscale.<br></p>
+    <a href="https://github.com/Costanzo-Francesco/Programmazione/blob/progetti/progetti/codiceFiscale/codeInC.c" target="_blank">
+      <button>
+        <p>calcolatore di codice fiscale: Ancora a Github</p>
+      </button>
+    </a>
+    
   </body>
 </html>

@@ -1,0 +1,39 @@
+
+.box {
+    background-color: #800080; 
+    color: white;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box; /* Include padding nelle dimensioni */
+}
+
+
+
+.left {
+    float: left;
+    margin-right: 20px; 
+}
+
+.right {
+    float: right;
+    margin-left: 20px; 
+}
+
+
+.content {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    overflow: auto; 
+}

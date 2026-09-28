@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    display: inline-block; 
+}
+
+.container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.testo-sopra {
+    position: absolute;
+    top: 10px;        
+    left: 10px;       
+    
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}

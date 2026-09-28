@@ -1,0 +1,52 @@
+/* =============================================
+   bonifaccio_esercizio_css_29.css
+   Foto Gallery – Esercizio css_29
+   ============================================= */
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+}
+
+/* Contenitore della gallery:
+   - centrato rispetto alla pagina
+   - bordo di 20px blu chiaro
+   - 5 colonne con flexbox (no tabelle) */
+#gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;                        /* colonne distanziate di 5px */
+  border: 20px solid lightblue;    /* bordo 20px blu chiaro */
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;                  /* centrato nella pagina */
+  background-color: #ffffff;
+}
+
+/* Ogni colonna */
+.colonna {
+  border: 1px solid #999;          /* bordo di 1px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Immagine con larghezza 150px */
+.colonna img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+/* Didascalia centrata e in bold */
+.didascalia {
+  text-align: center;
+  font-weight: bold;
+  margin: 6px 0 2px 0;
+  font-size: 0.9rem;
+}

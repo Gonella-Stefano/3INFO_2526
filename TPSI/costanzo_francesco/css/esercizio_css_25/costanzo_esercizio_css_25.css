@@ -1,0 +1,14 @@
+div {
+    padding:5px;
+    width: 10vh;
+    height: 10vh;
+    float:left;
+}
+.scatolaViola{
+
+    background-color: purple;
+    color:white;
+    text-align: left;
+    border-radius: 15px;
+    display: inline;
+}

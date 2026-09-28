@@ -1,0 +1,33 @@
+.container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.float-box {
+    float: left;
+    background-color: #800080;
+    color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.side-text {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.below-text {
+    clear: both; 
+    padding-top: 20px;
+    font-size: 1.1rem;
+}

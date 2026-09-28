@@ -1,0 +1,26 @@
+div{
+    margin: 0px;
+    text-align: center;
+    line-height: 10vh;
+    
+}
+body > div {
+    width:90vh;
+    height: 10vh;
+}
+
+div > div{
+    width:10vh;
+    height: 100%;
+    border: 1px solid black;
+    float:left;
+    background-color: brown;
+}
+
+body > div:nth-child(odd) > div:nth-child(odd) {
+    background-color: burlywood;
+}
+
+body > div:nth-child(even) > div:nth-child(even) {
+    background-color: burlywood;
+}

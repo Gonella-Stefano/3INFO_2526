@@ -1,0 +1,23 @@
+.primih1{
+    font-family: Montserrat;
+}
+
+ul.circle{
+    list-style-type: circle;
+}
+
+ol.roman{
+    list-style-type: upper-roman;
+}
+
+ul.bullet{
+    list-style-type: none;
+}
+
+ul.bullet > li:before{
+    content: 'star';
+    font-family: 'Material Symbols Outlined';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+}

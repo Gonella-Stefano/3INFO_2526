@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 40px;
+}
+
+.container {
+  display: flex;
+  max-width: 900px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.item {
+  flex: 1;
+  background-color: #4a7091;
+  color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ffffff;
+}
+
+.item:last-child {
+  border-right: none;
+}

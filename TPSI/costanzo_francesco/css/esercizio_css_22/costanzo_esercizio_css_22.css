@@ -1,0 +1,12 @@
+ul > li {
+    display: inline;
+    background-color:black;
+    color: white;
+    float:left;
+    padding:20px;
+    list-style-type: none;
+}
+
+ul > li:hover{
+    background-color: grey;
+}

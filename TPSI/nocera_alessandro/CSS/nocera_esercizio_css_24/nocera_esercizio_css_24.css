@@ -1,0 +1,29 @@
+.scacchiera {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    border: 2px solid rgb(62, 129, 0);
+    width: fit-content;
+    font-family: Arial, sans-serif;
+}
+
+.cella {
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(62, 129, 0);
+}
+
+.scacchiera > .cella:nth-child(16n + 1),
+.scacchiera > .cella:nth-child(16n + 3),
+.scacchiera > .cella:nth-child(16n + 5),
+.scacchiera > .cella:nth-child(16n + 7),
+.scacchiera > .cella:nth-child(16n + 10),
+.scacchiera > .cella:nth-child(16n + 12),
+.scacchiera > .cella:nth-child(16n + 14),
+.scacchiera > .cella:nth-child(16n + 16) {
+    background-color: rgb(62, 129, 0);
+    color: rgb(0, 0, 0);
+}
+ 

@@ -1,0 +1,50 @@
+div {
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+
+.rel_ass, .rel_ass2 {
+    width: 300px;
+    height: 200px;
+    background-image: url("../es_html/download.png");
+}
+
+
+.ass_rel1, .ass_rel2 {
+    width: 50%;
+    height: 150px; 
+    background-image: url("https://www.shutterstock.com/image-vector/golden-dust-light-png-bokeh-600w-2192855099.jpg");
+}
+
+
+.repeat1, .repeat2 {
+    width: 400px;
+    height: 200px;
+    background-image: url("https://pixabay.com/it/illustrations/banner-png-rosso-2383908/");
+    background-repeat: repeat;
+}
+
+
+.no_repeat1, .no_repeat2 {
+    width: 400px;
+    height: 200px;
+    background-image: url("https://pixabay.com/it/illustrations/banner-png-rosso-2383908/");
+    background-repeat: no-repeat;
+}
+
+
+.repeat_x1, .repeat_x2 {
+    width: 400px;
+    height: 200px;
+    background-image: url("https://pixabay.com/it/illustrations/banner-png-rosso-2383908/");
+    background-repeat: repeat-x;
+}
+
+
+.repeat_y1, .repeat_y1 {
+    width: 400px;
+    height: 200px;
+    background-image: url("https://pixabay.com/it/illustrations/banner-png-rosso-2383908/");
+    background-repeat: repeat-y;
+}

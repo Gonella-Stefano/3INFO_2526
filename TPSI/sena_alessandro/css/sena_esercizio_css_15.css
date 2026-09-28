@@ -1,0 +1,45 @@
+.red{
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+#violet{
+    background-color: rgb(128, 0, 117);
+    width: 25%;
+    height: 150px;
+}
+#violet1{
+    background-color: rgb(128, 0, 117);
+    width: 50%;
+    height: 150px;
+}
+#violet2{
+    background-color: rgb(128, 0, 117);
+    width: 75%;
+    height: 150px;
+}
+#violet3{
+    background-color: rgb(128, 0, 117);
+    width: 100%;
+    height: 150px;
+}
+#rett{
+    background-color: rgba(#008000, 0.65);
+    width: 221%;
+    height: 221px;
+}
+#rett1{
+    background-color: rgba(0, 128, 0, 0.65);
+    width: 50%;
+    height: 221px;
+}
+#rett2{
+    background-color: rgba(green, 0.65);
+    width: 62.5%;
+    height: 221px;
+}
+#rett3{
+    background-color: rgba(green, 0.65);
+    width: 22.2%;
+    height: 221px;
+}

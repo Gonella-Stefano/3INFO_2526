@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 500px;
+}
+
+.float-box {
+    width: 150px;
+    height: 150px;
+    background-color: #7e00c2;
+    float: left;
+    margin: 0 15px 15px 0;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+}
+
+.text-next {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.text-below {
+    clear: left;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}

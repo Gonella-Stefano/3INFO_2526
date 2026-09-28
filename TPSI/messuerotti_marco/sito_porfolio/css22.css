@@ -1,0 +1,18 @@
+.d1{
+    float:left;
+    background-color: black;
+    color:white;
+}
+.d2{
+    float:left;
+    background-color: gray;
+    color:white;
+}
+li{
+    width:100px;
+    text-align: center;
+    padding:20px;
+}
+ul{
+    list-style-type: none;
+}

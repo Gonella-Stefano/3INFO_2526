@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.box-float {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.text-beside {
+  overflow: hidden;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.text-below {
+  margin-top: 12px;
+  font-size: 1rem;
+  color: #333;
+}

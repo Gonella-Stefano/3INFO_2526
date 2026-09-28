@@ -1,0 +1,45 @@
+
+h1{
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    padding:5px;
+}
+
+.header{
+    display:block;
+    background-color: rgb(255, 122, 13);
+    height: 5vh;
+    margin:0px;
+}
+
+.centro{
+    height: 100%;
+}
+
+.centro > div{
+    display: inline;
+    float: left;
+}
+
+.centro > div:first-child{
+    background-color: rgb(251, 194, 87);
+    height: 100%;
+    width: 60vh;
+}
+
+.centro > div:last-child{
+    background-color: rgb(106, 106, 183);
+    height: 100%;
+    width: calc(100% - 60vh);
+}
+
+.footer{
+    display:block;
+    background-color:rgb(3, 182, 3);
+   
+}
+
+.centro h1{
+    line-height: 80vh;
+}

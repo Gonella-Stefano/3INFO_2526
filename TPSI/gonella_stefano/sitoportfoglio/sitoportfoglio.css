@@ -1,0 +1,13 @@
+#t1{
+    font-family: 'Poppins', sans-serif;
+}
+h2 ,#t2{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Lora', serif;
+}
+li:nth-child(even) {
+    color: blue;
+    background-color: aqua
+}

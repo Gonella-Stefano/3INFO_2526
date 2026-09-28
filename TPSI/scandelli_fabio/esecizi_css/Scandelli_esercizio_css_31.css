@@ -1,0 +1,16 @@
+image {
+    background-image: url(fiore.jpeg);
+    
+    
+}
+p {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+}   
+#immg {
+    width: 400px;
+    height: auto;
+}

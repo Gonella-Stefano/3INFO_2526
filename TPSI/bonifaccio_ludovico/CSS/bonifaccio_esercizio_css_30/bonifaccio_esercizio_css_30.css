@@ -1,0 +1,13 @@
+#parent {
+    border: 3px solid green;
+    width: 740px;
+    height: 400px;
+    background-image: url(alpi.jpg);
+  }
+  
+p {
+    color: yellow;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}

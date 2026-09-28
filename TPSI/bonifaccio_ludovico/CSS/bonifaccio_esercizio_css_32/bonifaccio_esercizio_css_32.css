@@ -1,0 +1,26 @@
+#header {
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+  }
+
+#sidebar {
+    width: 30%;
+    height: 700px;
+}
+
+#main {
+    width: 70%;
+    height: 700px;
+}
+
+#footer {
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}
+  
+p {
+    color: black;
+    text-align: left;
+}

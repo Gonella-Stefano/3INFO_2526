@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+.float-box {
+    float: right;
+    width: 150px;
+    height: 150px;
+    background: #c8e6c9; /* Verde chiaro */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+p {
+    background: #8e44ad; /* Viola */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    color: white;
+}
+
+.clear {
+    clear: right;
+}

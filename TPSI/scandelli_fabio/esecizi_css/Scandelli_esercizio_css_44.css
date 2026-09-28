@@ -1,0 +1,15 @@
+.contenitore {
+    display: flex;
+    flex-direction: row;
+    border: 0.3px solid grey;
+    justify-content: space-around;
+    width: 500px;
+    height: 50px;
+    align-items: center;
+}
+
+.bottone {
+    background-color: lightblue;
+    border-radius: 5px;
+    height: 35px;
+}

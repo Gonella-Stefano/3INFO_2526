@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    overflow: auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #7e00c2;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 10px;
+}
+
+.box:first-child {
+    float: left;
+    margin-right: 10px; 
+}
+
+.box:last-child {
+    float: right;
+    margin-left: 10px;
+}
+
+p {
+    text-align: center;
+    color: #333;
+    margin: 0; 
+    padding: 0 10px; 
+}

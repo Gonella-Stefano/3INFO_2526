@@ -1,0 +1,134 @@
+/* Sfondo e font */
+body {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    background-attachment: fixed;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    color: #374151;
+    padding: 0;
+}
+
+/* Intestazione */
+header {
+    background-color: #0f0f1a;
+    padding: 30px 0;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #8b5cf6;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Menu di navigazione */
+nav {
+    background-color: #2d1b4e;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 0 10px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #8b5cf6;
+    transform: scale(1.05);
+}
+
+/* Contenuto principale */
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+/* Sezioni */
+section {
+    padding: 25px 0;
+    text-align: center;
+}
+
+section h2 {
+    color: #8b5cf6;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, #8b5cf6, #374151);
+    border-radius: 5px;
+    width: 120px;
+    margin: 15px auto;
+}
+
+/* Grassetto e corsivo */
+b {
+    color: #8b5cf6;
+    background-color: rgba(139, 92, 246, 0.1);
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+i {
+    color: #6b46c1;
+    font-style: italic;
+}
+
+/* Link generici */
+a {
+    color: #8b5cf6;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #6b46c1;
+}
+
+/* Pulsante "Torna su" */
+.scroll-up {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2d1b4e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 20px 0;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.scroll-up:hover {
+    background-color: #8b5cf6;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    background-color: #0f0f1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: 2px solid #8b5cf6;
+}

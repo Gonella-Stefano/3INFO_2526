@@ -1,0 +1,33 @@
+#t1 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+#t2 {
+    font-family: 'Sofia', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+#t3 {
+    font-family: 'Arel', sans-serif;
+    color: white;
+    background-color: black;
+}
+ul.cerchio {
+    list-style-type: circle;
+}
+ol.romano {
+    list-style-type: upper-roman;
+
+}
+ul.icona {
+    list-style-type: none;
+}
+ul.icona > li:before {
+    content: "male";
+    font-family: "Material Icons";
+    color: green;
+    margin-right: 5px;
+}

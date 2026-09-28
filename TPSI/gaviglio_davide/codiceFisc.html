@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codice Fiscale in C - Davide Gaviglio</title>
+    <link  rel="stylesheet" href="sitoPortf_css.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>Davide Gaviglio</h1>
+        <p>Sviluppatore / Studente</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#progetto">Progetto</a></li>
+            <li><a href="EARadio.html">EARadio</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="progetto">
+            <h2>Codice Fiscale in C</h2>
+            
+            <div class="descrizione">
+                <p><strong>Questo programma</strong>, scritto interamente in linguaggio C, calcola il codice fiscale italiano partendo dai dati inseriti dall'utente (cognome, nome, data di nascita, sesso e codice catastale del comune di nascita).</p>
+                <p>Utilizza funzioni per la gestione dei file (per eventuali salvataggi) e puntatori per manipolare le stringhe in modo efficiente.</p>
+            </div>
+
+            <div class="features">
+                <div class="feature">
+                    <h3>✔ Cosa fa il programma</h3>
+                    <ul>
+                        <li>Estrae le consonanti (e vocali se necessario) da cognome e nome</li>
+                        <li>Calcola anno, mese (con lettera corrispondente) e giorno di nascita</li>
+                        <li>Gestisce correttamente il sesso (per le donne aggiunge 40 al giorno)</li>
+                        <li>Inserisce il codice catastale del comune</li>
+                        <li>Calcola automaticamente la <strong>lettera di controllo</strong> (16º carattere)</li>
+                    </ul>
+                </div>
+                <div class="feature">
+                    <h3>✔ Tecnologie utilizzate</h3>
+                    <ul>
+                        <li>Linguaggio C puro</li>
+                        <li>Gestione di stringhe e puntatori</li>
+                        <li>Funzioni di input/output da file</li>
+                        <li>Algoritmo ufficiale del Ministero delle Finanze</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 30px;">Codice sorgente principale</h3>
+            <div class="codice">
+                <pre><code>
+        do {
+        printf("Inserire il proprio cognome: ");
+        scanf("%s", cognome);
+        fcognome(cognome, codicefiscale);
+
+        printf("Inserire il proprio nome: ");
+        scanf("%s", nome);
+        fnome(nome, codicefiscale);
+
+        printf("Inserire il proprio anno di nascita: ");
+        scanf("%d", &annonascita);
+        fanno(&annonascita, codicefiscale);
+
+        printf("Inserire il proprio mese di nascita (1-12): ");
+        scanf("%d", &mesenascita);
+        fmese(&mesenascita, codicefiscale);
+
+        printf("Inserire il proprio giorno di nascita: ");
+        scanf("%d", &giornonascita);
+        printf("Inserire il proprio sesso (M/F): ");
+        scanf(" %c", &sesso); 
+        fgiornosesso(&giornonascita, &sesso, codicefiscale);
+
+        fcomuni(codicefiscale);
+
+        
+        char controllo = fcontrollo(codicefiscale);
+        codicefiscale[16] = controllo; 
+
+        printf("Codice fiscale generato: %s\n", codicefiscale);
+
+        
+        printf("Vuoi reinserire i dati? (s/n): ");
+        char risposta;
+        scanf(" %c", &risposta);
+        if (risposta != 's' && risposta != 'S') {
+            break;
+        }
+        } while (1); 
+</code></pre>
+            </div>
+
+            <p style="text-align: center; margin-top: 20px;">
+                <strong>Nota:</strong> Il codice completo è disponibile sul mio GitHub.
+            </p>
+
+            <div class="back">
+                <a href="https://github.com/Gaviglio-Davide" target="_blank">→ Visualizza il repository completo su GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Davide Gaviglio - Tutti i diritti riservati</p>
+    </footer>
+</body>
+</html>

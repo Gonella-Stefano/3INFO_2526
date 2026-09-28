@@ -1,0 +1,21 @@
+h1 {
+    border-left: solid 7px;
+    border-left-color: black;
+    border: solid 5px;
+    border-color: blue;
+    border-bottom: solid;
+}
+
+h2 {
+    border: solid black;
+    border-top: 2px dashed rgba(63, 235, 0, 1);
+}
+
+p {
+    border-top: solid black;
+    border-bottom: 3px dashed rgb(80, 76, 76);
+    border-left: solid;
+    border-right: solid;
+    border-left-color:  rgba(63, 235, 0, 1);
+    border-right-color:  rgba(63, 235, 0, 1);
+}

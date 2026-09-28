@@ -1,0 +1,13 @@
+h1 {
+    color:yellow;
+    position:relative;
+    top:30px;
+    left:30px;
+    
+}
+
+div{
+    background-image:url(./image.png);
+    background-repeat: no-repeat;
+    height: 50vh;
+}

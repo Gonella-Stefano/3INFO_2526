@@ -1,0 +1,14 @@
+h1 {
+    border-bottom: 5px solid blue;
+    border-left: 7px black;
+}
+
+h4 {
+    border-top: 2px dashed green;
+}
+
+p {
+    border-bottom: 3px dashed gray;
+    border-right: green;
+    border-left: green;
+}

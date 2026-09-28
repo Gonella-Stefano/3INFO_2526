@@ -1,0 +1,27 @@
+.wrapping{
+    border: 20px solid lightblue;
+    overflow: hidden; /* contiene i float */
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.wrapping > div{
+    float: left;
+    margin:5px;
+}
+
+img{
+    width: 150px;
+    border: 1px solid black;
+    display: block;
+}
+
+p{
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+    margin: 0;
+}

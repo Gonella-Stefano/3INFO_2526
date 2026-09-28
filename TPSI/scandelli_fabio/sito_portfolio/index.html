@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Scandelli Fabio</title>
-</head>
-<body>
-    <h1>Portfolio Scolastico</h1>
+
+    <link rel="stylesheet" href="portfolio.css">
+
     
-    <nav>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="barra">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="chi_sono.html">Chi Sono</a></li>
@@ -17,25 +25,60 @@
         </ul>
     </nav>
 
-    <hr>
+    <div class="container">
 
-    <h2>Benvenuto nel mio Portfolio</h2>
-    
-    <p>Ciao! Sono <strong>Scandelli Fabio</strong>, uno studente della classe 3INFO.</p>
-    
-    <p>In questo sito troverai informazioni su di me, i miei progetti di Educazione Civica e le mie esperienze PCTO.</p>
+        <section class="hero">
+            <h1>Portfolio Scolastico</h1>
+            <p>Studente di Informatica • Progetti • Esperienze • Competenze</p>
+        </section>
 
-    <h3>Sezioni principali:</h3>
-    <ul>
-        <li><strong>Chi Sono:</strong> Scopri di più su di me e i miei interessi</li>
-        <li><strong>Ed. Civica:</strong> I miei progetti e approfondimenti sull'educazione civica</li>
-        <li><strong>PCTO:</strong> Le mie esperienze di alternanza scuola-lavoro</li>
-    </ul>
+        <section class="intro">
+            <h2>Benvenuto nel mio Portfolio</h2>
 
-    <hr>
+            <p>
+                Ciao! Sono <strong>Scandelli Fabio</strong>, uno studente della classe 3INFO.
+            </p>
 
-    <footer>
-        <p><small>&copy; 2025 Scandelli Fabio - 3INFO</small></p>
-    </footer>
+            <p>
+                Qui trovi informazioni su di me, i miei progetti di Educazione Civica e le mie esperienze PCTO.
+            </p>
+        </section>
+
+        <h3 class="section-title">Seleziona una categoria</h3>
+
+        <ul class="selezione">
+
+            <li>
+                <a href="chi_sono.html" class="card">
+                    <span class="material-icons">person</span>
+                    <h3>Chi Sono</h3>
+                    <p>Scopri di più su di me e i miei interessi</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="ed_civica.html" class="card">
+                    <span class="material-icons">school</span>
+                    <h3>Ed. Civica</h3>
+                    <p>I miei progetti e approfondimenti sull’educazione civica</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="pcto.html" class="card">
+                    <span class="material-icons">work</span>
+                    <h3>PCTO</h3>
+                    <p>Le mie esperienze di alternanza scuola-lavoro</p>
+                </a>
+            </li>
+
+        </ul>
+
+        <footer>
+            <p>© 2026 Scandelli Fabio - 3INFO</p>
+        </footer>
+
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,43 @@
+
+        body {
+            font-family: Arial, sans-serif 2F4RG5GT;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Sfondo molto chiaro */
+            text-align: center; /* Centra tutto il testo */
+        }
+        header {
+            background-color: #8A1314; /* Sfondo rosso per l'intestazione */
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            font-size: 3em; /* Titolo principale molto grande */
+            margin: 0;
+        }
+        h2 {
+            color: #8A1314; /* Colore rosso per i sottotitoli */
+            margin-top: 40px;
+            width: 100%;
+            height: 10wbn 0%;
+        }
+        p {
+            font-size: 1.2em; /* Testo un po' più grande */
+            margin: 15px auto;
+            width: 80%; /* Fa in modo che il testo non sia troppo largo */
+        }
+        a {
+            color: #AC1819; /* Colore rosso scuro per i link */
+            font-weight: bold;
+            text-decoration: none; /* Rimuove la linea sotto il link */
+        }
+
+        .foto{
+            padding: 100px;
+            text-align: center;
+            width: 50%;
+            height: 50%;
+        }
+        .centro{
+            text-align: center;
+        }

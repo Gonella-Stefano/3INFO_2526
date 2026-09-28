@@ -1,0 +1,15 @@
+.d1{
+    float:left;
+    background-color: black;
+    color:white;
+}
+.d2{
+    float:left;
+    background-color: gray;
+    color:white;
+}
+div{
+    width:80px;
+    text-align: center;
+    padding: 20px;
+}

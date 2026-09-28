@@ -1,0 +1,47 @@
+
+h1{
+    text-transform: uppercase;
+    color:white;
+    font-size: medium;
+}
+body > div:first-child{
+    background-color: rgb(255, 157, 0);
+    height: 10vh;
+    line-height: 10vh;
+    
+}
+body > div:first-child > h1{
+    padding-left: 10px;
+}
+.centerContent{
+    height: 80vh;
+}
+.centerContent > div {
+    display: inline;
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+    line-height: 80vh;
+}
+.primo{
+    background-color: lightsalmon;
+}
+
+.secondo{
+    background-color: lightslategray;
+}
+
+.terzo{
+    background-color: slategrey;
+}
+
+.footer{
+    background-color: greenyellow;
+    height: 10vh;
+    line-height: 10vh;
+    
+}
+
+.footer > h1{
+    padding-left:10px
+}

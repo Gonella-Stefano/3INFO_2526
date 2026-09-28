@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+    padding: 50px 0; 
+    background-color: #f9f9f9;
+}
+
+/* Punto 3.1: Centrata con margin auto e bordo 20px blu chiaro */
+.gallery-container {
+    display: flex;            
+    width: fit-content;        /* Stringe il contenitore attorno al contenuto */
+    margin: 0 auto;            
+    border: 20px solid #ADD8E6; 
+    padding: 10px;
+    background-color: white;
+}
+
+
+.gallery-item {
+    border: 1px solid #000000;
+    margin: 5px;               
+    display: block;           
+}
+
+/* Punto 3.3: Immagine con larghezza fissa di 150px */
+.gallery-item img {
+    width: 150px;
+    display: block;            /* Toglie lo spazio vuoto sotto l'immagine */
+}
+
+
+.descrizione {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    font-family: sans-serif;   
+}

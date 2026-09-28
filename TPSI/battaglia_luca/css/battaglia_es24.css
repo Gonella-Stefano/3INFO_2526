@@ -1,0 +1,25 @@
+.galleggia {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+}
+
+.galleggia {
+    background-color: white;
+    color: black; 
+    border: 1px solid grey;
+    float: left;
+}
+
+#white {
+    background-color: white;
+}
+
+#black {
+    background-color: black;
+}
+

@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 200px;
+  height: 150px;
+  background-color: purple;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+
+.box-left {
+  float: left;
+}
+
+.box-right {
+  float: right;
+}
+
+.text {
+  overflow: hidden;
+  padding: 0 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.clearfix {
+  clear: both;
+}

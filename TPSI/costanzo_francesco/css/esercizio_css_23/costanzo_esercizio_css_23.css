@@ -1,0 +1,12 @@
+div{
+    display: inline;
+    background-color:black;
+    color: white;
+    float:left;
+    padding:20px;
+    list-style-type: none;
+}
+
+div:hover{
+    background-color: grey;
+}

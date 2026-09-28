@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    width: fit-content;
+    margin: 50px auto;
+    height: 210px;
+    border: 20px solid lightblue;
+    padding: 10px;
+}
+
+.card {
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card img {
+    width: 150px;
+    display: block;
+}
+
+.card p {
+    font-weight: bold;
+    margin: 10px 0;
+}

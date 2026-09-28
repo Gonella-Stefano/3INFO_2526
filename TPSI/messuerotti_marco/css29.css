@@ -1,0 +1,35 @@
+.gallery-container {
+    display: table;
+    margin: 50px auto;
+    border: 20px solid #add8e6; 
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.gallery-item {
+    float: left; 
+    width: 152px; 
+    margin: 5px; 
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.gallery-item img {
+    width: 150px;
+    height: auto;
+    display: block; 
+}
+
+.caption {
+    text-align: center; 
+    font-weight: bold;  
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+.gallery-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}

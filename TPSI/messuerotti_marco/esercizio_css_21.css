@@ -1,0 +1,51 @@
+
+ol.roman {
+    list-style-type: upper-roman;
+  }
+  ul.cercho {
+    list-style-type: circle;
+  }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+ul {
+    list-style-type: none;
+  }
+    
+  li:before {
+    content: 'done_outline';
+    font-family: 'Content Paste Go';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.playwrite-nz-guides-regular {
+    font-family: "Playwrite NZ Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .playwrite-nz-guides-regular {
+    font-family: "Playwrite NZ Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .noto-sans-jp-<uniquifier> {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  

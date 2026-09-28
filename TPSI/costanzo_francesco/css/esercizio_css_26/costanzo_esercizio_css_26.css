@@ -1,0 +1,26 @@
+div > div{
+    display: inline;
+
+}
+body > div{
+    background-color: purple;
+    width:500px;
+    height: 100px;
+    color: white;
+    padding: 10px;
+}
+
+
+
+div > div:last-child{
+    width: 100px;
+    height: 90px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    float:right;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+

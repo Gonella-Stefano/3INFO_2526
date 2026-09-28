@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.container div {
+    background-color: #4673a3;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-family: sans-serif;
+}

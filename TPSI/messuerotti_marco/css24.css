@@ -1,0 +1,19 @@
+div:nth-child(even){
+float:left;
+background-color: red;
+
+
+}
+div:nth-child(2n+1){
+float:left;
+
+}
+div:nth-child(8n){
+float:none;
+padding:30px;
+
+}
+div{
+    padding:30px;
+    border:1px solid;
+}

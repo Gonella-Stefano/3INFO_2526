@@ -1,0 +1,32 @@
+.gallery-container {
+    display: flex;
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    margin: 20px auto;
+    width: fit-content; /* Stringe il contenitore attorno alle colonne */
+    border: 20px solid lightblue;
+    /* Punto 6: Colonne distanziate di 5px */
+    gap: 5px;
+    padding: 5px;
+}
+
+/* Punto 5: Ogni colonna ha un bordo di 1px */
+.column {
+    border: 1px solid #000;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Punto 3: Immagine con larghezza 150px */
+.column img {
+    width: 150px;
+    height: auto;
+}
+
+/* Punto 4: Didascalia al fondo, centrata e in bold */
+.caption {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}

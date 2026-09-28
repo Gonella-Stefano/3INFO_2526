@@ -1,0 +1,33 @@
+/* Il contenitore viola */
+.container {
+    background-color: purple; 
+    width: 550px;
+    padding: 40px;
+    /* Questo serve per far sì che il viola prenda tutto il contenuto */
+    overflow: hidden; 
+}
+
+
+.box-float {
+    float: right;
+    background-color: #c0e7d8;
+
+    width: 150px; 
+    height: 100px;
+    padding-top: 50px; 
+    
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+.testo {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 0; 
+}

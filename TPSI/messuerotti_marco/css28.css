@@ -1,0 +1,9 @@
+div{ text-align: center;
+    border:20px solid blue;
+}
+img{ 
+    text-align: center;
+    width:150px;
+    padding:5px;
+    float:left;
+}

@@ -1,0 +1,61 @@
+/* Importa i font da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Stili per i titoli con 3 font diversi */
+#t1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+#t2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #34495e;
+}
+
+#t3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #7f8c8d;
+}
+
+/* Icona nel paragrafo #pr2 (loopback) */
+#pr2::before {
+    content: "\f1eb"; /* Icona "network-wired" di Font Awesome */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #e74c3c;
+}
+
+/* Lista non ordinata con stile circle in #pr3 */
+#pr3 ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+/* Lista ordinata con numeri romani in #pr4 */
+#pr4 ol {
+    list-style-type: upper-roman;
+    margin-left: 20px;
+}
+
+/* Lista non ordinata con bullet personalizzati (icona) in #pr5 */
+#pr5 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#pr5 ul li {
+    margin-bottom: 5px;
+}
+
+#pr5 ul li::before {
+    content: "\f058"; /* Icona "circle" di Font Awesome */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #3498db;
+}

@@ -1,0 +1,31 @@
+
+#master{
+    width: 810px;
+    border: 20px cornflowerblue solid;
+    margin: auto;
+    font-size: 0;
+}
+
+.img{
+    width: 150px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 0px;
+}
+
+.did{
+    width: 150px;
+    padding-bottom: 2.55px;
+    padding-top: 2.5px;
+    border: 1px black solid;
+    text-align: center;
+    font-family: bold;
+    font-size: 16px;
+    font-family: bold;
+}
+
+.fl{
+    margin: 5px;
+    display: inline-block;
+}

@@ -1,0 +1,71 @@
+h1{
+    text-transform: uppercase;
+    color:white;
+}
+.header h1{
+    font-size:small;
+}
+
+.header{
+    background-color: rgb(255, 123, 0);
+    height: 10vh;
+    position: sticky;
+    margin:0px;
+    top:0;
+}
+
+.header > div {
+    display: inline;
+    line-height: calc(10vh - 60px);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+}
+
+.header > div:first-child{
+    float:left;
+    background-color: red;
+}
+
+.header > div:last-child{
+    float:right;
+    background-color: red;
+}
+
+body{
+    background-color: slategray;
+    margin:0px;
+}
+
+.element{
+    background-color: rgb(139, 206, 38);
+    margin: 10px;
+    height: 30vh;
+}
+
+.element > h1{
+    padding:10px;
+    color: white;
+    
+}
+
+
+img{
+    height: 100px;
+    background-color: green;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.wrapper > div, .wrapper > img {
+    display: inline;
+    float: left;
+}
+
+.wrapper p{
+    padding: 10px;
+    margin-left: 100px;
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: #8e44ad;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+p {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin: 0 10px;
+}
