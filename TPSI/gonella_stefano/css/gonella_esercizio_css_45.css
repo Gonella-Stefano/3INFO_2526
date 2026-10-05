@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    border: 2px aqua;
+    background-color: rgb(252, 252, 252);
+    align-content: stretch;
+    flex-direction: row;
+    align-content: stretch;
+     width: 550px;
+  height: 200px;
+  padding: 10px;
+
+
+}
+
+.item {
+  background-color: #2b5a99;
+  border: 2px solid #128fa5;
+  width: 200px;
+  color:white;
+  height: 200px;
+  padding: 10px;
+  text-align:center;
+}

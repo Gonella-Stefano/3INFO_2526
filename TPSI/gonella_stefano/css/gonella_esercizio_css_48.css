@@ -1,0 +1,31 @@
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+main {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template: repeat(4, 90px) / repeat(4, 90px);
+    gap: 2px;
+    background: #000000; 
+    border: 2px solid #000000;
+    display: inline-grid;
+}
+
+.grid div {
+    background: #ff9200;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
